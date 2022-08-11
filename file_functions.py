@@ -1,4 +1,4 @@
-import os, sys, shutil, gzip
+import os, sys, shutil, gzip, tarfile
 
 def compress(filename_in: str):
     print('file.compressing')
@@ -6,6 +6,10 @@ def compress(filename_in: str):
     with open(filename_in, "rb") as fin, gzip.open(filename_out, "wb") as fout:
         shutil.copyfileobj(fin, fout)
     print(f"compressed {round(os.stat(filename_in).st_size/1000000)} MB to {round(os.stat(filename_out).st_size/1000000)} MB" )
+
+def tar(foldername_in: str, output_filename: str):
+    with tarfile.open(output_filename, "w:gz") as tar:
+        tar.add(foldername_in, arcname=os.path.basename(foldername_in))
 
 def move(filename_from: str, filename_to: str):
     print('file.moving')

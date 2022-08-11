@@ -2,6 +2,7 @@
 import paraview_functions as pv
 import file_functions as ff
 
+
 ################## CONFIG
 # no trailing slash
 data_folder = "./data_jet"
@@ -10,19 +11,20 @@ processed_folder = "./data_jet_processed"
 number_frames = 2  # 938
 pv_version = "5.10" #"5.10", "5.8" TODO
 temp_save = False
+export_format = "vtm" # "cgns", "vtm"
 ################## CONFIG END
 
 for i in range(1, number_frames + 1):
-    if ff.exists(f"{processed_folder}/visual{i:05d}.cgns.gz"):
-        print(f"visual{i:05d}.cgns.gz already exists skipping")
+    if ff.exists(f"{processed_folder}/visual{i:05d}.cgns.gz") | ff.exists(f"{processed_folder}/visual{i:05d}.tar.gz"):
+        print(f"visual{i:05d} already exists skipping")
         continue
     print(f"----------------------------------")
     print(f"STARTING FRAME {i:05d}")
     print(f"----------------------------------")
-    #ff.cleardir(f"{temp_folder}")
 
     # copy the nek5000 data
     if False:
+        ff.cleardir(f"{temp_folder}")
         ff.copy(f"{data_folder}/jet_Re35000.f{i:05d}", f"{temp_folder}/jet_Re35000.f{i:05d}")
         ff.copy(f"{data_folder}/jet_Re35001.f{i:05d}", f"{temp_folder}/jet_Re35001.f{i:05d}")
         ff.nek5000(i, temp_folder)
@@ -54,11 +56,11 @@ for i in range(1, number_frames + 1):
             pv.delete_Source(clip)
 
     # compute q-criterion and select iso surfaces
-    if False:
-        if pv_version == "5.10" & temp_save:
+    if True:
+        if (pv_version == "5.10") & temp_save:
             resample = pv.load_CGNS_5_10(f"{temp_folder}/resample.cgns", ['velocity', 'velocity_mag'], ['Base'])
-        if pv_version == "5.8" & temp_save:
-            resample = pv.load_CGNS_5_8(f"{temp_folder}/resample.cgns", ['velocity', 'velocity_mag'], ['Base'])
+        if (pv_version == "5.8") & temp_save:
+            resample #= pv.load_CGNS_5_8(f"{temp_folder}/resample.cgns", ['velocity', 'velocity_mag'], ['Base'])
         qcrit = pv.create_QCriterion(resample)
         contour = pv.create_Contour(qcrit)
         if temp_save:
@@ -68,21 +70,37 @@ for i in range(1, number_frames + 1):
             pv.delete_Source(resample)
 
     # export the whole
-    if False:
-        if pv_version == "5.10" & temp_save:
+    if True:
+        if (pv_version == "5.10") & temp_save:
             contour = pv.load_CGNS(f"{temp_folder}/contour.cgns", ['velocity_mag'], ['Base_Surface_Elements'])
-        if pv_version == "5.8" & temp_save:
+        if (pv_version == "5.8") & temp_save:
             contour #= pv.load_CGNS(f"{temp_folder}/contour.cgns", ['velocity_mag'], ['Base_Surface_Elements'])#todo
 
         # todo export
-        pv.save_SourceVTM(contour, f"{temp_folder}/export/visual.vtm")
-        pv.save_SourceC(contour, f"{temp_folder}/visual.cgns")
+        if export_format == "vtm":
+            pv.save_SourceVTM(contour, f"{temp_folder}/export/visual.vtm", ['velocity_mag'], ['ispatch'])
+        if export_format == "cgns":
+            pv.save_SourceCGNS(contour, f"{temp_folder}/visual.cgns")
+        if temp_save:
+            pv.delete_Source(contour)
+
+    #
+    if not temp_save:
         pv.delete_Source(contour)
+        pv.delete_Source(qcrit)
+        pv.delete_Source(resample)
+        pv.delete_Source(transform)
+        pv.delete_Source(grid)
+        pv.delete_Source(clip)
+        pv.delete_Source(nek5000)
 
     # move the data
-    if False:
+    if export_format == "cgns":
         ff.compress(f"{temp_folder}/visual.cgns")
         ff.move(f"{temp_folder}/visual.cgns.gz", f"{processed_folder}/visual{i:05d}.cgns.gz")
+    if export_format == "vtm":
+        ff.tar(f"{temp_folder}/export", f"{temp_folder}/export.tar.gz")
+        ff.move(f"{temp_folder}/export.tar.gz", f"{processed_folder}/visual{i:05d}.tar.gz")
 
 
 print("Hurrrrrrrrrray we are totally done")
