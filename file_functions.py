@@ -28,6 +28,9 @@ def copy(filename_from: str, filename_to: str):
 def exists(filename: str):
     return os.path.exists(filename)
 
+def notexists(filename: str):
+    return not os.path.exists(filename)
+
 def cleardir(dirname: str):
     for f in os.listdir(dirname):
         os.remove(os.path.join(dirname, f))

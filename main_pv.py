@@ -15,7 +15,7 @@ temp_save = False # to save mem
 # the data crunching ############################################################################################
 for i in range(1, number_frames + 1):
     if ff.exists(f"{processed_folder}/visual{i:05d}.cgns.gz"):
-        print(f"visual{i:05d}.cgns.gz already exists skipping")
+        print(f"{processed_folder}/visual{i:05d}.cgns.gz already exists skipping")
         continue
     print(f"----------------------------------")
     print(f"STARTING PROCESSING FRAME {i:05d}")
@@ -87,11 +87,11 @@ for i in range(1, number_frames + 1):
 
 # the rendering crunching ############################################################################################
 for i in range(1, number_frames + 1):
-    if ff.exists(f"{processed_folder}/visual{i:05d}.png"):
-        print(f"visual{i:05d}.png already exists skipping")
+    if ff.exists(f"{processed_folder}/out{i:05d}.png"):
+        print(f"{processed_folder}/out{i:05d}.png already exists skipping")
         continue
-    if ff.exists(f"{processed_folder}/visual{i:05d}.cgns.gz"):
-        print(f"visual{i:05d}.cgns.gz not found, can't render it")
+    if ff.notexists(f"{processed_folder}/visual{i:05d}.cgns.gz"):
+        print(f"{processed_folder}/visual{i:05d}.cgns.gz not found, can't render it")
         continue
     print(f"----------------------------------")
     print(f"STARTING RENDERING FRAME {i:05d}")
@@ -107,12 +107,12 @@ for i in range(1, number_frames + 1):
         pv.color_Display(display)
         pv.display_Bar(display, view, True)
 
-        CameraPosition = [60, 0, 37.5]
+        CameraPosition = [100, 0, 37.5]
         CameraFocalPoint = [-7.116276452281695, -0.6798347127267999, 37.5]
         CameraViewUp = [0.0, -1.0, 0.0]
         CameraParallelScale = 41.06120959102141
         layout = pv.init_Layout(view, 3840, 2160, CameraPosition, CameraFocalPoint, CameraViewUp, CameraParallelScale)
-        pv.save_screenshot(view, f"{processed_folder}/visual{i:05d}.png", 3840, 2160)
+        pv.save_screenshot(view, f"{processed_folder}/out{i:05d}.png", 3840, 2160)
 
 
 print("Hurrrrrrrrrray we are totally done")

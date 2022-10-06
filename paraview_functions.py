@@ -116,6 +116,12 @@ def init_Display(visualcgns, renderView):
 def color_Display(display):
     ColorBy(display, ('POINTS', 'velocity_mag'))
     display.RescaleTransferFunctionToDataRange(True, False)
+    velocity_magLUT = GetColorTransferFunction('velocity_mag')
+    velocity_magLUT.ApplyPreset('mod', True)
+    velocity_magPWF = GetOpacityTransferFunction('velocity_mag')
+    velocity_magPWF.ApplyPreset('mod', True)
+    velocity_magLUT.ApplyPreset('mod', True)
+    velocity_magPWF.ApplyPreset('mod', True)
 
 def display_Bar(display, view, visible:bool):
     display.SetScalarBarVisibility(view, visible)
