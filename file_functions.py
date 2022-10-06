@@ -7,6 +7,12 @@ def compress(filename_in: str):
         shutil.copyfileobj(fin, fout)
     print(f"compressed {round(os.stat(filename_in).st_size/1000000)} MB to {round(os.stat(filename_out).st_size/1000000)} MB" )
 
+def decompress(filename_in: str, filename_out:str):
+    with gzip.open(filename_in, 'rb') as f_in:
+        with open(filename_out, 'wb') as f_out:
+            shutil.copyfileobj(f_in, f_out)
+
+
 def tar(foldername_in: str, output_filename: str):
     with tarfile.open(output_filename, "w:gz") as tar:
         tar.add(foldername_in, arcname=os.path.basename(foldername_in))

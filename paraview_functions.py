@@ -20,20 +20,10 @@ def load_VisItNek5000(file: str, elements):
 def load_CGNS_5_10(file: str, elements, bases):
     print('pv.load_CGNS_5_10')
     source = CGNSSeriesReader(registrationName='cgns', FileNames=[file])
-    source.Bases = bases #pv5.10.1
+    source.Bases = bases
     source.PointArrayStatus = elements
     source.DoublePrecisionMesh = 0
     UpdatePipeline(proxy=source)
-    return source
-
-def load_CGNS_5_8(file: str, elements, blocks):
-    print('pv.load_CGNS_5_8')
-    source = CGNSSeriesReader(registrationName='cgns', FileNames=[file])
-    source.Blocks = blocks #pv5.8.0
-    source.PointArrayStatus = elements
-    source.DoublePrecisionMesh = 0
-    UpdatePipeline(proxy=source)
-
     return source
 
 def create_Clip(source):
@@ -92,12 +82,62 @@ def save_SourceCGNS(source, file: str):
     SetActiveSource(source)
     SaveData(file, proxy=source)
 
-def save_SourceVTM(source, file: str, point_data_arrays, field_data_arrays):
-    print('pv.save_SourceVTM')
-    SetActiveSource(source)
-    SaveData(file, proxy=source, PointDataArrays=point_data_arrays, FieldDataArrays=field_data_arrays)
-             # ['velocity_mag'], ['ispatch']
+def create_View():
+    renderView = GetActiveViewOrCreate('RenderView')
+    return renderView
 
+def init_Display(visualcgns, renderView):
+    display = Show(visualcgns, renderView, 'UnstructuredGridRepresentation')
+    display.Representation = 'Surface'
+    display.ColorArrayName = [None, '']
+    display.SelectTCoordArray = 'None'
+    display.SelectNormalArray = 'None'
+    display.SelectTangentArray = 'None'
+    display.OSPRayScaleArray = 'velocity_mag'
+    display.OSPRayScaleFunction = 'PiecewiseFunction'
+    display.SelectOrientationVectors = 'None'
+    display.ScaleFactor = 7.5
+    display.SelectScaleArray = 'None'
+    display.GlyphType = 'Arrow'
+    display.GlyphTableIndexArray = 'None'
+    display.GaussianRadius = 0.375
+    display.SetScaleArray = ['POINTS', 'velocity_mag']
+    display.ScaleTransferFunction = 'PiecewiseFunction'
+    display.OpacityArray = ['POINTS', 'velocity_mag']
+    display.OpacityTransferFunction = 'PiecewiseFunction'
+    display.DataAxesGrid = 'GridAxesRepresentation'
+    display.PolarAxes = 'PolarAxesRepresentation'
+    display.ScalarOpacityUnitDistance = 0.5568154306931443
+    display.OpacityArrayName = ['POINTS', 'velocity_mag']
+    display.OSPRayScaleFunction.Points = [0.0025922988186968653, 0.0, 0.5, 0.0, 1.5263435463360224, 1.0, 0.5, 0.0]
+    display.ScaleTransferFunction.Points = [0.0019556693732738495, 0.0, 0.5, 0.0, 1.4659227132797241, 1.0, 0.5, 0.0]
+    display.OpacityTransferFunction.Points = [0.0019556693732738495, 0.0, 0.5, 0.0, 1.4659227132797241, 1.0, 0.5, 0.0]
+    return display
+def color_Display(display):
+    ColorBy(display, ('POINTS', 'velocity_mag'))
+    display.RescaleTransferFunctionToDataRange(True, False)
+
+def display_Bar(display, view, visible:bool):
+    display.SetScalarBarVisibility(view, visible)
+
+def init_Layout(view, x:int, y:int, camera_position, camera_focalpoint, camera_view_up, camera_parallelscale):
+    layout = GetLayout()
+    layout.SetSize(x, y)
+    view.CameraPosition = camera_position
+    view.CameraFocalPoint = camera_focalpoint
+    view.CameraViewUp = camera_view_up
+    view.CameraParallelScale = camera_parallelscale
+
+def save_screenshot(view, file:str, x:int, y:int):
+    SaveScreenshot(file, view, ImageResolution=[x, y], OverrideColorPalette='WhiteBackground', TransparentBackground=1, CompressionLevel='1')
+def reset_View(view):
+    view.ResetCamera(False)
+
+def update_View(view):
+    view.Update()
+
+def get_MaterialLibrary():
+    return GetMaterialLibrary()
 
 def delete_Source(source):
     Delete(source)
