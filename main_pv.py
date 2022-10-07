@@ -8,7 +8,7 @@ import file_functions as ff
 data_folder = "./data_jet"
 temp_folder = "./temp_jet" # !! all files will be deleted !!
 processed_folder = "./data_jet_processed"
-number_frames = 2  # 938
+number_frames = 1  # 938
 temp_save = False # to save mem
 ################## CONFIG END
 
@@ -89,7 +89,7 @@ for i in range(1, number_frames + 1):
 for i in range(1, number_frames + 1):
     if ff.exists(f"{processed_folder}/out{i:05d}.png"):
         print(f"{processed_folder}/out{i:05d}.png already exists skipping")
-        continue
+        #continue
     if ff.notexists(f"{processed_folder}/visual{i:05d}.cgns.gz"):
         print(f"{processed_folder}/visual{i:05d}.cgns.gz not found, can't render it")
         continue
@@ -111,8 +111,10 @@ for i in range(1, number_frames + 1):
         CameraFocalPoint = [-7.116276452281695, -0.6798347127267999, 37.5]
         CameraViewUp = [0.0, -1.0, 0.0]
         CameraParallelScale = 41.06120959102141
-        layout = pv.init_Layout(view, 3840, 2160, CameraPosition, CameraFocalPoint, CameraViewUp, CameraParallelScale)
-        pv.save_screenshot(view, f"{processed_folder}/out{i:05d}.png", 3840, 2160)
+        layout = pv.init_Layout(view, 3840, 1421, CameraPosition, CameraFocalPoint, CameraViewUp, CameraParallelScale)
+        pv.save_screenshot(layout, f"{processed_folder}/out{i:05d}.png", 3840, 2160)
+        pv.delete_Source(source)
+        pv.clear_ViewsAndLayouts()
 
 
 print("Hurrrrrrrrrray we are totally done")

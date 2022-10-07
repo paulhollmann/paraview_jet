@@ -112,35 +112,47 @@ def init_Display(visualcgns, renderView):
     display.OSPRayScaleFunction.Points = [0.0025922988186968653, 0.0, 0.5, 0.0, 1.5263435463360224, 1.0, 0.5, 0.0]
     display.ScaleTransferFunction.Points = [0.0019556693732738495, 0.0, 0.5, 0.0, 1.4659227132797241, 1.0, 0.5, 0.0]
     display.OpacityTransferFunction.Points = [0.0019556693732738495, 0.0, 0.5, 0.0, 1.4659227132797241, 1.0, 0.5, 0.0]
+
+    display.Interpolation = 'Gouraud'
+    display.Diffuse = 1.0
+    display.SpecularPower = 100.0
+    display.Specular = 0.3
+    display.Luminosity = 100.0
+    display.Ambient = 0.2
     return display
 def color_Display(display):
     ColorBy(display, ('POINTS', 'velocity_mag'))
-    display.RescaleTransferFunctionToDataRange(True, False)
+    #display.RescaleTransferFunctionToDataRange(True, False)
     velocity_magLUT = GetColorTransferFunction('velocity_mag')
     velocity_magLUT.ApplyPreset('mod', True)
+    velocity_magLUT.RescaleTransferFunction(0.0, 1.5)
     velocity_magPWF = GetOpacityTransferFunction('velocity_mag')
     velocity_magPWF.ApplyPreset('mod', True)
-    velocity_magLUT.ApplyPreset('mod', True)
-    velocity_magPWF.ApplyPreset('mod', True)
+    velocity_magPWF.RescaleTransferFunction(0.0, 1.5)
+
 
 def display_Bar(display, view, visible:bool):
     display.SetScalarBarVisibility(view, visible)
 
 def init_Layout(view, x:int, y:int, camera_position, camera_focalpoint, camera_view_up, camera_parallelscale):
-    layout = GetLayout()
-    layout.SetSize(x, y)
     view.CameraPosition = camera_position
     view.CameraFocalPoint = camera_focalpoint
     view.CameraViewUp = camera_view_up
     view.CameraParallelScale = camera_parallelscale
+    #view.EnableRayTracing = 1
+    layout = GetLayout()
+    layout.SetSize(x, y)
 
-def save_screenshot(view, file:str, x:int, y:int):
-    SaveScreenshot(file, view, ImageResolution=[x, y], OverrideColorPalette='WhiteBackground', TransparentBackground=1, CompressionLevel='1')
+def save_screenshot(layout, file:str, x:int, y:int):
+    SaveScreenshot(file, layout, ImageResolution=[x, y], OverrideColorPalette='WhiteBackground', TransparentBackground=0, CompressionLevel='1')
 def reset_View(view):
     view.ResetCamera(False)
 
 def update_View(view):
     view.Update()
+
+def clear_ViewsAndLayouts():
+    RemoveViewsAndLayouts()
 
 def get_MaterialLibrary():
     return GetMaterialLibrary()
