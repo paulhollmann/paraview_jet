@@ -8,7 +8,8 @@ import file_functions as ff
 data_folder = "U:\\nguyen\\DNSdata_jet\\DNS2_vid"
 temp_folder = "C:\\jet_temp" # !! all files will be deleted !!
 processed_folder = "Z:\\Nguyen\\jet_pvpython\\processed"
-number_frames = 938  # 938
+processed_pic_folder = "Z:\\Nguyen\\jet_pvpython\\processed2"
+number_frames = 5  # 938
 temp_save = False # to save mem
 ################## CONFIG END
 
@@ -87,8 +88,8 @@ for i in range(1, number_frames + 1):
 
 # the rendering crunching ############################################################################################
 for i in range(1, number_frames + 1):
-    if ff.exists(f"{processed_folder}/out{i:05d}.png"):
-        print(f"{processed_folder}/out{i:05d}.png already exists overwriting")
+    if ff.exists(f"{processed_pic_folder}/out{i:05d}.png"):
+        print(f"{processed_pic_folder}/out{i:05d}.png already exists overwriting")
         #continue
     if ff.notexists(f"{processed_folder}/visual{i:05d}.cgns.gz"):
         print(f"{processed_folder}/visual{i:05d}.cgns.gz not found, can't render it")
@@ -112,7 +113,7 @@ for i in range(1, number_frames + 1):
         CameraViewUp = [0.0, -1.0, 0.0]
         CameraParallelScale = 41.06120959102141
         layout = pv.init_Layout(view, 3840, 1421, CameraPosition, CameraFocalPoint, CameraViewUp, CameraParallelScale)
-        pv.save_screenshot(layout, f"{processed_folder}/out{i:05d}.png", 3840, 2160)
+        pv.save_screenshot(layout, f"{processed_pic_folder}/out{i:05d}.png", 3840, 2160)
         pv.delete_Source(source)
         pv.clear_ViewsAndLayouts()
 
