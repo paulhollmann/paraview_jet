@@ -5,10 +5,10 @@ import file_functions as ff
 
 ################## CONFIG
 # no trailing slash
-data_folder = "./data_jet"
-temp_folder = "./temp_jet" # !! all files will be deleted !!
-processed_folder = "./data_jet_processed"
-number_frames = 1  # 938
+data_folder = "U:\\nguyen\\DNSdata_jet\\DNS2_vid"
+temp_folder = "C:\\jet_temp" # !! all files will be deleted !!
+processed_folder = "Z:\\Nguyen\\jet_pvpython\\processed"
+number_frames = 938  # 938
 temp_save = False # to save mem
 ################## CONFIG END
 
@@ -88,7 +88,7 @@ for i in range(1, number_frames + 1):
 # the rendering crunching ############################################################################################
 for i in range(1, number_frames + 1):
     if ff.exists(f"{processed_folder}/out{i:05d}.png"):
-        print(f"{processed_folder}/out{i:05d}.png already exists skipping")
+        print(f"{processed_folder}/out{i:05d}.png already exists overwriting")
         #continue
     if ff.notexists(f"{processed_folder}/visual{i:05d}.cgns.gz"):
         print(f"{processed_folder}/visual{i:05d}.cgns.gz not found, can't render it")

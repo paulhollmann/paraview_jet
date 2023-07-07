@@ -1,0 +1,3555 @@
+----------------------------------
+STARTING FRAME 00001
+----------------------------------
+file.coping
+file.coping
+file.nek5000
+pv.load_VisItNek5000
+pv.create_Clip
+pv.create_FastUniformGrid
+pv.create_Transformation
+pv.create_Resample
+pv.create_QCriterion
+(1456.696s) [pvbatch.9       ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x27d2b50): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.13      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x27d0910): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.15      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x217b5e0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.19      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1a447e0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.19      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1a48410): Algorithm vtkPVGradientFilter(0x1a447e0) returned failure for request: vtkInformation (0x1b2b390)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.27      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x20bd240): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.33      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xdf8910): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.188s) [pvbatch.52      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1741550): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.40      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1048300): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.44      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xa6b100): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.44      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xa94da0): Algorithm vtkPVGradientFilter(0xa6b100) returned failure for request: vtkInformation (0xb50410)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.47      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1134ec0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.47      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x115e450): Algorithm vtkPVGradientFilter(0x1134ec0) returned failure for request: vtkInformation (0x121a170)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.0       ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x15c03710): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.1       ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1788ce0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.188s) [pvbatch.54      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xecdfe0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.189s) [pvbatch.54      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xed07e0): Algorithm vtkPVGradientFilter(0xecdfe0) returned failure for request: vtkInformation (0xf87a40)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.666s) [pvbatch.726     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x23898d0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.666s) [pvbatch.726     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x238c0e0): Algorithm vtkPVGradientFilter(0x23898d0) returned failure for request: vtkInformation (0x246eca0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.2       ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x17b2410): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.186s) [pvbatch.582     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x10d2860): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.186s) [pvbatch.582     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x10d5070): Algorithm vtkPVGradientFilter(0x10d2860) returned failure for request: vtkInformation (0x11b7c30)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.235s) [pvbatch.97      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1745040): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.188s) [pvbatch.56      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x25f4de0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.225s) [pvbatch.624     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1cd23f0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.167s) [pvbatch.194     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xbc7c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.163s) [pvbatch.145     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xa13ba0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.203s) [pvbatch.241     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1682f90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.179s) [pvbatch.432     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x23e2010): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.112s) [pvbatch.480     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x143e060): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.158s) [pvbatch.336     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xcbf020): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.006s) [pvbatch.385     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x218f580): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.129s) [pvbatch.288     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1123020): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.129s) [pvbatch.288     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x114d820): Algorithm vtkPVGradientFilter(0x1123020) returned failure for request: vtkInformation (0x11174b0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.3       ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x285bf70): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.103     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x12158f0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.184s) [pvbatch.59      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1983dc0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.184s) [pvbatch.59      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1987db0): Algorithm vtkPVGradientFilter(0x1983dc0) returned failure for request: vtkInformation (0x1a6a9c0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.225s) [pvbatch.625     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x224d370): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.163s) [pvbatch.196     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x28df550): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.164s) [pvbatch.196     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x28e1d60): Algorithm vtkPVGradientFilter(0x28df550) returned failure for request: vtkInformation (0x2999220)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.164s) [pvbatch.146     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x25e4c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.200s) [pvbatch.243     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2035750): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.200s) [pvbatch.243     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2048160): Algorithm vtkPVGradientFilter(0x2035750) returned failure for request: vtkInformation (0x20fff10)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.179s) [pvbatch.432     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x240c850): Algorithm vtkPVGradientFilter(0x23e2010) returned failure for request: vtkInformation (0x24e6680)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.112s) [pvbatch.480     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x14688b0): Algorithm vtkPVGradientFilter(0x143e060) returned failure for request: vtkInformation (0x1432440)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.156s) [pvbatch.341     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x20f89b0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.156s) [pvbatch.341     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2121ab0): Algorithm vtkPVGradientFilter(0x20f89b0) returned failure for request: vtkInformation (0x21ddc50)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.006s) [pvbatch.386     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x9dcc90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.006s) [pvbatch.386     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x9c4970): Algorithm vtkPVGradientFilter(0x9dcc90) returned failure for request: vtkInformation (0xaa7430)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.131s) [pvbatch.289     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1aed2f0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.4       ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1706bd0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.108     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1bbc210): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.184s) [pvbatch.61      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xf176e0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.184s) [pvbatch.61      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xee92f0): Algorithm vtkPVGradientFilter(0xf176e0) returned failure for request: vtkInformation (0xfcc410)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.225s) [pvbatch.626     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xf99460): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.166s) [pvbatch.201     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x25a3f70): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.166s) [pvbatch.201     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x25a6780): Algorithm vtkPVGradientFilter(0x25a3f70) returned failure for request: vtkInformation (0x2689260)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.163s) [pvbatch.147     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x27c3860): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.804s) [pvbatch.250     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xccfdc0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.153s) [pvbatch.343     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x19d9920): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.153s) [pvbatch.343     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x19dc1d0): Algorithm vtkPVGradientFilter(0x19d9920) returned failure for request: vtkInformation (0x1abebb0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.003s) [pvbatch.387     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x21ca590): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.003s) [pvbatch.387     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x21dd710): Algorithm vtkPVGradientFilter(0x21ca590) returned failure for request: vtkInformation (0x2294fb0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.132s) [pvbatch.290     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x149ac90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.5       ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1c19950): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.234s) [pvbatch.110     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1704910): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.175s) [pvbatch.65      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x22e46d0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.226s) [pvbatch.630     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xfa0850): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.164s) [pvbatch.202     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x937ab0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.164s) [pvbatch.202     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x94b450): Algorithm vtkPVGradientFilter(0x937ab0) returned failure for request: vtkInformation (0xa02880)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.166s) [pvbatch.150     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1906170): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.166s) [pvbatch.150     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1908980): Algorithm vtkPVGradientFilter(0x1906170) returned failure for request: vtkInformation (0x19bfa10)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.199s) [pvbatch.251     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x15ab560): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.200s) [pvbatch.251     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1593f20): Algorithm vtkPVGradientFilter(0x15ab560) returned failure for request: vtkInformation (0x16769e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.156s) [pvbatch.345     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1227f20): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.157s) [pvbatch.345     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x122a730): Algorithm vtkPVGradientFilter(0x1227f20) returned failure for request: vtkInformation (0x130d1d0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.005s) [pvbatch.388     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xa704e0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.005s) [pvbatch.388     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xa72cf0): Algorithm vtkPVGradientFilter(0xa704e0) returned failure for request: vtkInformation (0xb2a170)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.127s) [pvbatch.291     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1f7b9f0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.127s) [pvbatch.291     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1f7e1f0): Algorithm vtkPVGradientFilter(0x1f7b9f0) returned failure for request: vtkInformation (0x2035f40)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.6       ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1efa950): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.6       ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1efd150): Algorithm vtkPVGradientFilter(0x1efa950) returned failure for request: vtkInformation (0x1fb4330)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.112     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x196dab0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.186s) [pvbatch.68      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xfaf480): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.226s) [pvbatch.624     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1ce7580): Algorithm vtkPVGradientFilter(0x1cd23f0) returned failure for request: vtkInformation (0x1cb1450)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.164s) [pvbatch.203     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1b8c770): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.164s) [pvbatch.203     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1b8ef80): Algorithm vtkPVGradientFilter(0x1b8c770) returned failure for request: vtkInformation (0x1c719f0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.056s) [pvbatch.151     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2753ea0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.056s) [pvbatch.151     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2756680): Algorithm vtkPVGradientFilter(0x2753ea0) returned failure for request: vtkInformation (0x2839ba0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.201s) [pvbatch.252     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xa621e0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.201s) [pvbatch.252     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xa649f0): Algorithm vtkPVGradientFilter(0xa621e0) returned failure for request: vtkInformation (0xb1c070)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.156s) [pvbatch.346     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1c67c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.003s) [pvbatch.391     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xa45f60): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.003s) [pvbatch.391     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xa6fe20): Algorithm vtkPVGradientFilter(0xa45f60) returned failure for request: vtkInformation (0xb27590)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.130s) [pvbatch.294     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x18dd1d0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.130s) [pvbatch.294     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x18df9e0): Algorithm vtkPVGradientFilter(0x18dd1d0) returned failure for request: vtkInformation (0x19969d0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.7       ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xf7e3f0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.114     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1940b50): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.188s) [pvbatch.69      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x12e5f30): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.188s) [pvbatch.69      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x12e8730): Algorithm vtkPVGradientFilter(0x12e5f30) returned failure for request: vtkInformation (0x13cb1f0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.626     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xf9bc70): Algorithm vtkPVGradientFilter(0xf99460) returned failure for request: vtkInformation (0x1053840)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.167s) [pvbatch.204     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x254d210): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.167s) [pvbatch.204     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x254fa50): Algorithm vtkPVGradientFilter(0x254d210) returned failure for request: vtkInformation (0x2607070)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.163s) [pvbatch.162     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1b2bb50): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.163s) [pvbatch.162     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1b2e360): Algorithm vtkPVGradientFilter(0x1b2bb50) returned failure for request: vtkInformation (0x1be5820)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.203s) [pvbatch.260     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x27cb470): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.159s) [pvbatch.347     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1bb2490): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.159s) [pvbatch.347     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1bc1f70): Algorithm vtkPVGradientFilter(0x1bb2490) returned failure for request: vtkInformation (0x1c7e2f0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.006s) [pvbatch.384     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x8e1060): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.006s) [pvbatch.384     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x90b6d0): Algorithm vtkPVGradientFilter(0x8e1060) returned failure for request: vtkInformation (0x9e5420)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.132s) [pvbatch.295     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1ad78f0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.132s) [pvbatch.295     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1ada100): Algorithm vtkPVGradientFilter(0x1ad78f0) returned failure for request: vtkInformation (0x1bbcb80)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.8       ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x110a850): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.236s) [pvbatch.96      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x24ea680): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.182s) [pvbatch.70      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xc9ac90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.226s) [pvbatch.630     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xfa30a0): Algorithm vtkPVGradientFilter(0xfa0850) returned failure for request: vtkInformation (0x1085ae0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.167s) [pvbatch.207     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x28685c0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.167s) [pvbatch.207     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x286add0): Algorithm vtkPVGradientFilter(0x28685c0) returned failure for request: vtkInformation (0x294da60)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.166s) [pvbatch.163     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xd2b5e0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.166s) [pvbatch.163     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xd2ddf0): Algorithm vtkPVGradientFilter(0xd2b5e0) returned failure for request: vtkInformation (0xe11bb0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.201s) [pvbatch.267     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x262cac0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.201s) [pvbatch.267     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x262f2a0): Algorithm vtkPVGradientFilter(0x262cac0) returned failure for request: vtkInformation (0x2712960)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.158s) [pvbatch.348     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xea4210): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.159s) [pvbatch.348     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xea6a50): Algorithm vtkPVGradientFilter(0xea4210) returned failure for request: vtkInformation (0xf5e070)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.006s) [pvbatch.385     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x21a1f10): Algorithm vtkPVGradientFilter(0x218f580) returned failure for request: vtkInformation (0x2259a20)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.131s) [pvbatch.296     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2114720): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.132s) [pvbatch.296     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x213e200): Algorithm vtkPVGradientFilter(0x2114720) returned failure for request: vtkInformation (0x21f9ae0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.9       ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x27d5360): Algorithm vtkPVGradientFilter(0x27d2b50) returned failure for request: vtkInformation (0x288ce30)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.235s) [pvbatch.100     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x21efc60): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.188s) [pvbatch.48      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2233060): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.189s) [pvbatch.48      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x225e4d0): Algorithm vtkPVGradientFilter(0x2233060) returned failure for request: vtkInformation (0x2337360)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.631     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x14f8670): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.226s) [pvbatch.631     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x14fc1c0): Algorithm vtkPVGradientFilter(0x14f8670) returned failure for request: vtkInformation (0x15df390)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.164s) [pvbatch.192     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x20ca520): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.164s) [pvbatch.192     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x20ccd60): Algorithm vtkPVGradientFilter(0x20ca520) returned failure for request: vtkInformation (0x21a6620)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.166s) [pvbatch.144     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2376090): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.166s) [pvbatch.144     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x23a0990): Algorithm vtkPVGradientFilter(0x2376090) returned failure for request: vtkInformation (0x236a6b0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.200s) [pvbatch.240     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xf3d970): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.200s) [pvbatch.240     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xf69060): Algorithm vtkPVGradientFilter(0xf3d970) returned failure for request: vtkInformation (0xf32910)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.156s) [pvbatch.349     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x278d4e0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.156s) [pvbatch.349     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x275ee80): Algorithm vtkPVGradientFilter(0x278d4e0) returned failure for request: vtkInformation (0x2842160)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.003s) [pvbatch.389     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x14bd110): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.003s) [pvbatch.389     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x14bf920): Algorithm vtkPVGradientFilter(0x14bd110) returned failure for request: vtkInformation (0x1577550)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.132s) [pvbatch.297     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1304f40): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.132s) [pvbatch.297     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1307740): Algorithm vtkPVGradientFilter(0x1304f40) returned failure for request: vtkInformation (0x13ea1f0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.10      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x26774b0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.103     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1218100): Algorithm vtkPVGradientFilter(0x12158f0) returned failure for request: vtkInformation (0x12fab80)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.186s) [pvbatch.49      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x25a1740): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.226s) [pvbatch.632     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1d84de0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.226s) [pvbatch.632     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1d875f0): Algorithm vtkPVGradientFilter(0x1d84de0) returned failure for request: vtkInformation (0x1e6a110)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.167s) [pvbatch.193     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xfe6590): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.168s) [pvbatch.193     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xff8f20): Algorithm vtkPVGradientFilter(0xfe6590) returned failure for request: vtkInformation (0x10b0a30)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.163s) [pvbatch.145     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xa163b0): Algorithm vtkPVGradientFilter(0xa13ba0) returned failure for request: vtkInformation (0xacd830)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.203s) [pvbatch.241     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x16acb40): Algorithm vtkPVGradientFilter(0x1682f90) returned failure for request: vtkInformation (0x1764870)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.158s) [pvbatch.350     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x171fc90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.158s) [pvbatch.350     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x172fe50): Algorithm vtkPVGradientFilter(0x171fc90) returned failure for request: vtkInformation (0x17eb020)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.005s) [pvbatch.390     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xcd81c0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.005s) [pvbatch.390     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xcda9d0): Algorithm vtkPVGradientFilter(0xcd81c0) returned failure for request: vtkInformation (0xd91a10)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.130s) [pvbatch.298     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x229ec90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.130s) [pvbatch.298     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x22aee40): Algorithm vtkPVGradientFilter(0x229ec90) returned failure for request: vtkInformation (0x236a020)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.11      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x18efed0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.11      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x19193c0): Algorithm vtkPVGradientFilter(0x18efed0) returned failure for request: vtkInformation (0x19d5670)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.236s) [pvbatch.107     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1722f90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.236s) [pvbatch.107     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x174bf40): Algorithm vtkPVGradientFilter(0x1722f90) returned failure for request: vtkInformation (0x1808310)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.186s) [pvbatch.51      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2086780): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.186s) [pvbatch.51      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2088f90): Algorithm vtkPVGradientFilter(0x2086780) returned failure for request: vtkInformation (0x2140f10)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.225s) [pvbatch.633     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x154af40): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.226s) [pvbatch.633     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x154d750): Algorithm vtkPVGradientFilter(0x154af40) returned failure for request: vtkInformation (0x16301d0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.168s) [pvbatch.194     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xbdb540): Algorithm vtkPVGradientFilter(0xbc7c90) returned failure for request: vtkInformation (0xc925e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.164s) [pvbatch.146     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x25f5620): Algorithm vtkPVGradientFilter(0x25e4c90) returned failure for request: vtkInformation (0x26b03a0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.203s) [pvbatch.242     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xd98c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.156s) [pvbatch.352     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x22e31a0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.156s) [pvbatch.352     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x22e59b0): Algorithm vtkPVGradientFilter(0x22e31a0) returned failure for request: vtkInformation (0x239d7a0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.003s) [pvbatch.392     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x9fc480): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.003s) [pvbatch.392     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x9fec80): Algorithm vtkPVGradientFilter(0x9fc480) returned failure for request: vtkInformation (0xae1ef0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.127s) [pvbatch.300     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1389210): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.127s) [pvbatch.300     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x138ba50): Algorithm vtkPVGradientFilter(0x1389210) returned failure for request: vtkInformation (0x1443070)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.12      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xdd8bc0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.108     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1bbea50): Algorithm vtkPVGradientFilter(0x1bbc210) returned failure for request: vtkInformation (0x1c76070)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.188s) [pvbatch.52      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1743d60): Algorithm vtkPVGradientFilter(0x1741550) returned failure for request: vtkInformation (0x17fb220)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.225s) [pvbatch.634     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2724140): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.226s) [pvbatch.634     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2726950): Algorithm vtkPVGradientFilter(0x2724140) returned failure for request: vtkInformation (0x27de9d0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.166s) [pvbatch.195     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1250590): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.166s) [pvbatch.195     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1263800): Algorithm vtkPVGradientFilter(0x1250590) returned failure for request: vtkInformation (0x131b0e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.164s) [pvbatch.147     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x27c6060): Algorithm vtkPVGradientFilter(0x27c3860) returned failure for request: vtkInformation (0x287df00)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.201s) [pvbatch.244     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1406510): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.159s) [pvbatch.354     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1214b50): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.159s) [pvbatch.354     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1217360): Algorithm vtkPVGradientFilter(0x1214b50) returned failure for request: vtkInformation (0x12ce820)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.006s) [pvbatch.396     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x12b2130): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.006s) [pvbatch.396     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x12b4980): Algorithm vtkPVGradientFilter(0x12b2130) returned failure for request: vtkInformation (0x136bf20)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.127s) [pvbatch.301     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xacd560): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.127s) [pvbatch.301     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xa9eed0): Algorithm vtkPVGradientFilter(0xacd560) returned failure for request: vtkInformation (0xb821b0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.13      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x27fa700): Algorithm vtkPVGradientFilter(0x27d0910) returned failure for request: vtkInformation (0x28b1ec0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.112     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1981d90): Algorithm vtkPVGradientFilter(0x196dab0) returned failure for request: vtkInformation (0x1a38fc0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.184s) [pvbatch.53      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1177ce0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.184s) [pvbatch.53      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x117a4f0): Algorithm vtkPVGradientFilter(0x1177ce0) returned failure for request: vtkInformation (0x125d360)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.225s) [pvbatch.635     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x231d660): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.226s) [pvbatch.635     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2346890): Algorithm vtkPVGradientFilter(0x231d660) returned failure for request: vtkInformation (0x2402ac0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.167s) [pvbatch.197     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xcd0270): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.168s) [pvbatch.197     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xcd2a80): Algorithm vtkPVGradientFilter(0xcd0270) returned failure for request: vtkInformation (0xdb5530)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.166s) [pvbatch.148     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x27c7c40): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.166s) [pvbatch.148     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x27ca450): Algorithm vtkPVGradientFilter(0x27c7c40) returned failure for request: vtkInformation (0x28819b0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.200s) [pvbatch.246     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x28a7bb0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.200s) [pvbatch.246     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x28bb730): Algorithm vtkPVGradientFilter(0x28a7bb0) returned failure for request: vtkInformation (0x2972b60)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.158s) [pvbatch.357     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x25a8f40): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.159s) [pvbatch.357     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x25ab740): Algorithm vtkPVGradientFilter(0x25a8f40) returned failure for request: vtkInformation (0x268e200)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.006s) [pvbatch.397     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1e4c470): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.006s) [pvbatch.397     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1e1e070): Algorithm vtkPVGradientFilter(0x1e4c470) returned failure for request: vtkInformation (0x1f01350)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.128s) [pvbatch.302     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x24d2c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.128s) [pvbatch.302     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x24e2c00): Algorithm vtkPVGradientFilter(0x24d2c90) returned failure for request: vtkInformation (0x259e080)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.14      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x12da690): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.14      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x12c2ae0): Algorithm vtkPVGradientFilter(0x12da690) returned failure for request: vtkInformation (0x13a5980)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.116     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xb0d520): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.116     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xb37070): Algorithm vtkPVGradientFilter(0xb0d520) returned failure for request: vtkInformation (0xbf27e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.187s) [pvbatch.55      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x13cb330): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.187s) [pvbatch.55      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x13cdab0): Algorithm vtkPVGradientFilter(0x13cb330) returned failure for request: vtkInformation (0x1485490)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.625     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x224fb50): Algorithm vtkPVGradientFilter(0x224d370) returned failure for request: vtkInformation (0x23077a0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.167s) [pvbatch.198     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xa21fe0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.168s) [pvbatch.198     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xa247e0): Algorithm vtkPVGradientFilter(0xa21fe0) returned failure for request: vtkInformation (0xadba40)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.165s) [pvbatch.152     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xfb76c0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.165s) [pvbatch.152     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xfe1200): Algorithm vtkPVGradientFilter(0xfb76c0) returned failure for request: vtkInformation (0x109c990)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.201s) [pvbatch.247     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x23f2540): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.156s) [pvbatch.358     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x90ac90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.156s) [pvbatch.358     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x91abd0): Algorithm vtkPVGradientFilter(0x90ac90) returned failure for request: vtkInformation (0x9d60c0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.005s) [pvbatch.398     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xaa7c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.005s) [pvbatch.398     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xab7e50): Algorithm vtkPVGradientFilter(0xaa7c90) returned failure for request: vtkInformation (0xb73020)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.131s) [pvbatch.306     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2471b50): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.131s) [pvbatch.306     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2474360): Algorithm vtkPVGradientFilter(0x2471b50) returned failure for request: vtkInformation (0x252b820)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.15      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x214dbd0): Algorithm vtkPVGradientFilter(0x217b5e0) returned failure for request: vtkInformation (0x22314c0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.117     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x156bf20): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.226s) [pvbatch.117     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x156e730): Algorithm vtkPVGradientFilter(0x156bf20) returned failure for request: vtkInformation (0x16511d0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.185s) [pvbatch.57      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x28a1f00): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.185s) [pvbatch.57      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x28a4710): Algorithm vtkPVGradientFilter(0x28a1f00) returned failure for request: vtkInformation (0x29871e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.642     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1ec04b0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.167s) [pvbatch.199     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1ae29f0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.168s) [pvbatch.199     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1ab4490): Algorithm vtkPVGradientFilter(0x1ae29f0) returned failure for request: vtkInformation (0x1b97520)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.163s) [pvbatch.153     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1159f40): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.163s) [pvbatch.153     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x115c750): Algorithm vtkPVGradientFilter(0x1159f40) returned failure for request: vtkInformation (0x123f1f0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.202s) [pvbatch.248     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xcee980): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.203s) [pvbatch.248     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xcfe7d0): Algorithm vtkPVGradientFilter(0xcee980) returned failure for request: vtkInformation (0xdb9f90)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.158s) [pvbatch.336     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xce9860): Algorithm vtkPVGradientFilter(0xcbf020) returned failure for request: vtkInformation (0xdc3690)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.006s) [pvbatch.408     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x27e3210): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.131s) [pvbatch.307     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2683f90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.131s) [pvbatch.307     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x26867a0): Algorithm vtkPVGradientFilter(0x2683f90) returned failure for request: vtkInformation (0x273ea30)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.16      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x22222d0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.16      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2224ae0): Algorithm vtkPVGradientFilter(0x22222d0) returned failure for request: vtkInformation (0x22dc000)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.194s) [pvbatch.118     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2092c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.194s) [pvbatch.118     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x20a2e10): Algorithm vtkPVGradientFilter(0x2092c90) returned failure for request: vtkInformation (0x215e020)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.188s) [pvbatch.58      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1c78b00): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.189s) [pvbatch.58      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1c8c560): Algorithm vtkPVGradientFilter(0x1c78b00) returned failure for request: vtkInformation (0x1d43890)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.643     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x21e76a0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.163s) [pvbatch.200     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1825de0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.163s) [pvbatch.200     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x18285f0): Algorithm vtkPVGradientFilter(0x1825de0) returned failure for request: vtkInformation (0x18dff10)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.164s) [pvbatch.156     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x105d1d0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.165s) [pvbatch.156     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x105fa20): Algorithm vtkPVGradientFilter(0x105d1d0) returned failure for request: vtkInformation (0x1116fc0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.200s) [pvbatch.249     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1c07020): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.200s) [pvbatch.249     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1c09830): Algorithm vtkPVGradientFilter(0x1c07020) returned failure for request: vtkInformation (0x1cec2c0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.159s) [pvbatch.337     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2018f10): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.006s) [pvbatch.408     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x27fc8b0): Algorithm vtkPVGradientFilter(0x27e3210) returned failure for request: vtkInformation (0x28b4000)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.129s) [pvbatch.308     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x13cd520): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.130s) [pvbatch.308     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x13f7070): Algorithm vtkPVGradientFilter(0x13cd520) returned failure for request: vtkInformation (0x14b27e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.17      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1c8e030): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.697s) [pvbatch.17      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1c90840): Algorithm vtkPVGradientFilter(0x1c8e030) returned failure for request: vtkInformation (0x1d733f0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.120     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1dddf10): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.120     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1de06f0): Algorithm vtkPVGradientFilter(0x1dddf10) returned failure for request: vtkInformation (0x1e97f80)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.186s) [pvbatch.60      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x156f1e0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.186s) [pvbatch.60      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x15719f0): Algorithm vtkPVGradientFilter(0x156f1e0) returned failure for request: vtkInformation (0x1629070)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.642     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1ec2d60): Algorithm vtkPVGradientFilter(0x1ec04b0) returned failure for request: vtkInformation (0x1fa6a70)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.167s) [pvbatch.205     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2468460): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.167s) [pvbatch.205     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2439e60): Algorithm vtkPVGradientFilter(0x2468460) returned failure for request: vtkInformation (0x251d2d0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.166s) [pvbatch.157     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1130580): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.166s) [pvbatch.157     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1101ef0): Algorithm vtkPVGradientFilter(0x1130580) returned failure for request: vtkInformation (0x11e51d0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.804s) [pvbatch.250     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xcd25d0): Algorithm vtkPVGradientFilter(0xccfdc0) returned failure for request: vtkInformation (0xdb5880)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.155s) [pvbatch.338     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1633c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.132s) [pvbatch.289     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1b03b60): Algorithm vtkPVGradientFilter(0x1aed2f0) returned failure for request: vtkInformation (0x1bbb7b0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.18      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x27ed590): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.18      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x27efd90): Algorithm vtkPVGradientFilter(0x27ed590) returned failure for request: vtkInformation (0x28a7250)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.122     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1bc7c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.122     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1bd7e20): Algorithm vtkPVGradientFilter(0x1bc7c90) returned failure for request: vtkInformation (0x1c93020)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.186s) [pvbatch.62      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1dc1c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.186s) [pvbatch.62      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1dd1e50): Algorithm vtkPVGradientFilter(0x1dc1c90) returned failure for request: vtkInformation (0x1e8d020)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.643     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x21e9eb0): Algorithm vtkPVGradientFilter(0x21e76a0) returned failure for request: vtkInformation (0x22cca40)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.167s) [pvbatch.206     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1417c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.167s) [pvbatch.206     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1427e50): Algorithm vtkPVGradientFilter(0x1417c90) returned failure for request: vtkInformation (0x14e3020)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.165s) [pvbatch.158     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x9dec90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.165s) [pvbatch.158     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x9eee50): Algorithm vtkPVGradientFilter(0x9dec90) returned failure for request: vtkInformation (0xaaa020)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.203s) [pvbatch.253     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x27452f0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.203s) [pvbatch.253     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2716ee0): Algorithm vtkPVGradientFilter(0x27452f0) returned failure for request: vtkInformation (0x27fa170)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.154s) [pvbatch.339     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1e712a0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.154s) [pvbatch.339     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1e73aa0): Algorithm vtkPVGradientFilter(0x1e712a0) returned failure for request: vtkInformation (0x1f56e10)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.132s) [pvbatch.290     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x14ab620): Algorithm vtkPVGradientFilter(0x149ac90) returned failure for request: vtkInformation (0x15663a0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.20      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2000f30): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.235s) [pvbatch.125     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x140a6f0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.235s) [pvbatch.125     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x140cf00): Algorithm vtkPVGradientFilter(0x140a6f0) returned failure for request: vtkInformation (0x14ef980)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.185s) [pvbatch.63      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1791420): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.185s) [pvbatch.63      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1763a00): Algorithm vtkPVGradientFilter(0x1791420) returned failure for request: vtkInformation (0x18467c0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.644     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1641670): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.167s) [pvbatch.208     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x27ddab0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.168s) [pvbatch.208     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x27f0db0): Algorithm vtkPVGradientFilter(0x27ddab0) returned failure for request: vtkInformation (0x28a8900)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.163s) [pvbatch.164     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xce0520): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.163s) [pvbatch.164     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xd0a070): Algorithm vtkPVGradientFilter(0xce0520) returned failure for request: vtkInformation (0xdc57e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.775s) [pvbatch.254     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xb29c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.775s) [pvbatch.254     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xb39bc0): Algorithm vtkPVGradientFilter(0xb29c90) returned failure for request: vtkInformation (0xbf5080)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.159s) [pvbatch.340     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xc2ec60): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.21      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1d958e0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.236s) [pvbatch.126     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xf79b10): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.236s) [pvbatch.126     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xf7c320): Algorithm vtkPVGradientFilter(0xf79b10) returned failure for request: vtkInformation (0x1033820)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.185s) [pvbatch.64      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1cec290): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.185s) [pvbatch.64      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1ceeaa0): Algorithm vtkPVGradientFilter(0x1cec290) returned failure for request: vtkInformation (0x1dd15f0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.654     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x222b9d0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.164s) [pvbatch.209     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1afd7f0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.164s) [pvbatch.209     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1b00000): Algorithm vtkPVGradientFilter(0x1afd7f0) returned failure for request: vtkInformation (0x1be2ab0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.201s) [pvbatch.255     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x15fe760): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.201s) [pvbatch.255     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x15e5b20): Algorithm vtkPVGradientFilter(0x15fe760) returned failure for request: vtkInformation (0x16c87b0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.157s) [pvbatch.342     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1dc5fe0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.157s) [pvbatch.342     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1dc87e0): Algorithm vtkPVGradientFilter(0x1dc5fe0) returned failure for request: vtkInformation (0x1e7fa40)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.22      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1427690): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.22      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1437860): Algorithm vtkPVGradientFilter(0x1427690) returned failure for request: vtkInformation (0x14f2a00)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.236s) [pvbatch.96      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x24ece90): Algorithm vtkPVGradientFilter(0x24ea680) returned failure for request: vtkInformation (0x25c66d0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.175s) [pvbatch.65      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x22e6ee0): Algorithm vtkPVGradientFilter(0x22e46d0) returned failure for request: vtkInformation (0x23c9a80)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.644     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x166aa20): Algorithm vtkPVGradientFilter(0x1641670) returned failure for request: vtkInformation (0x1726a00)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.167s) [pvbatch.210     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x24d5b50): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.168s) [pvbatch.210     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x24d8360): Algorithm vtkPVGradientFilter(0x24d5b50) returned failure for request: vtkInformation (0x258f820)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.200s) [pvbatch.256     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x26a0360): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.200s) [pvbatch.256     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2672730): Algorithm vtkPVGradientFilter(0x26a0360) returned failure for request: vtkInformation (0x2755640)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.159s) [pvbatch.344     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xd646e0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.159s) [pvbatch.344     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xd8e200): Algorithm vtkPVGradientFilter(0xd646e0) returned failure for request: vtkInformation (0xe499b0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.23      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1a868e0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.23      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1aaf900): Algorithm vtkPVGradientFilter(0x1a868e0) returned failure for request: vtkInformation (0x1b6bb90)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.235s) [pvbatch.100     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x21f2470): Algorithm vtkPVGradientFilter(0x21efc60) returned failure for request: vtkInformation (0x22a99c0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.053s) [pvbatch.66      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x160eb50): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.053s) [pvbatch.66      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1611360): Algorithm vtkPVGradientFilter(0x160eb50) returned failure for request: vtkInformation (0x16c8820)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.654     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x222e270): Algorithm vtkPVGradientFilter(0x222b9d0) returned failure for request: vtkInformation (0x22e5a50)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.166s) [pvbatch.211     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1098590): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.166s) [pvbatch.211     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x106ae30): Algorithm vtkPVGradientFilter(0x1098590) returned failure for request: vtkInformation (0x114d9b0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.203s) [pvbatch.257     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1fd56d0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.203s) [pvbatch.257     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1fd7ee0): Algorithm vtkPVGradientFilter(0x1fd56d0) returned failure for request: vtkInformation (0x20baa80)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.158s) [pvbatch.351     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1c3eff0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.158s) [pvbatch.351     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1c41800): Algorithm vtkPVGradientFilter(0x1c3eff0) returned failure for request: vtkInformation (0x1cf9a40)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.24      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1db4c30): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.24      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1dceaa0): Algorithm vtkPVGradientFilter(0x1db4c30) returned failure for request: vtkInformation (0x1e859c0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.101     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1d3b8d0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.188s) [pvbatch.67      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x14ca590): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.188s) [pvbatch.67      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x14ccdd0): Algorithm vtkPVGradientFilter(0x14ca590) returned failure for request: vtkInformation (0x15af990)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.656     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xd8f0f0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.164s) [pvbatch.212     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1754520): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.164s) [pvbatch.212     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x177e070): Algorithm vtkPVGradientFilter(0x1754520) returned failure for request: vtkInformation (0x18397e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.199s) [pvbatch.258     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xea7b50): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.200s) [pvbatch.258     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xeaa360): Algorithm vtkPVGradientFilter(0xea7b50) returned failure for request: vtkInformation (0xf61820)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.157s) [pvbatch.355     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x14ef500): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.157s) [pvbatch.355     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x15018d0): Algorithm vtkPVGradientFilter(0x14ef500) returned failure for request: vtkInformation (0x15b9a80)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.25      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x260a0e0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.697s) [pvbatch.25      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x25db6c0): Algorithm vtkPVGradientFilter(0x260a0e0) returned failure for request: vtkInformation (0x26bebc0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.102     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2091fe0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.186s) [pvbatch.68      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xfd8fd0): Algorithm vtkPVGradientFilter(0xfaf480) returned failure for request: vtkInformation (0x1094740)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.656     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xd91900): Algorithm vtkPVGradientFilter(0xd8f0f0) returned failure for request: vtkInformation (0xe492c0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.167s) [pvbatch.213     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x19fff30): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.168s) [pvbatch.213     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1a02740): Algorithm vtkPVGradientFilter(0x19fff30) returned failure for request: vtkInformation (0x1ae51d0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.200s) [pvbatch.259     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1fc05a0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.200s) [pvbatch.259     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1fc2de0): Algorithm vtkPVGradientFilter(0x1fc05a0) returned failure for request: vtkInformation (0x20a59a0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.154s) [pvbatch.356     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2765520): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.154s) [pvbatch.356     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x278f070): Algorithm vtkPVGradientFilter(0x2765520) returned failure for request: vtkInformation (0x284a7e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.26      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2254690): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.26      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2267f20): Algorithm vtkPVGradientFilter(0x2254690) returned failure for request: vtkInformation (0x231ea50)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.109     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x284e570): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.226s) [pvbatch.109     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x281fee0): Algorithm vtkPVGradientFilter(0x284e570) returned failure for request: vtkInformation (0x29031c0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.182s) [pvbatch.70      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xcaae10): Algorithm vtkPVGradientFilter(0xc9ac90) returned failure for request: vtkInformation (0xd66020)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.226s) [pvbatch.659     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1b0d650): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.226s) [pvbatch.659     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1b369a0): Algorithm vtkPVGradientFilter(0x1b0d650) returned failure for request: vtkInformation (0x1bf2940)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.164s) [pvbatch.214     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x118ac90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.164s) [pvbatch.214     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x119ae10): Algorithm vtkPVGradientFilter(0x118ac90) returned failure for request: vtkInformation (0x1256020)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.203s) [pvbatch.260     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x27f4fd0): Algorithm vtkPVGradientFilter(0x27cb470) returned failure for request: vtkInformation (0x28b0730)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.154s) [pvbatch.359     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x227df40): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.154s) [pvbatch.359     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x22a6ea0): Algorithm vtkPVGradientFilter(0x227df40) returned failure for request: vtkInformation (0x23631f0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.27      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x208f6b0): Algorithm vtkPVGradientFilter(0x20bd240) returned failure for request: vtkInformation (0x2172340)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.234s) [pvbatch.110     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x172e7d0): Algorithm vtkPVGradientFilter(0x1704910) returned failure for request: vtkInformation (0x17e9eb0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.184s) [pvbatch.71      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x18e5f30): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.184s) [pvbatch.71      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x190eeb0): Algorithm vtkPVGradientFilter(0x18e5f30) returned failure for request: vtkInformation (0x19cb1f0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.164s) [pvbatch.215     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x9ccf30): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.164s) [pvbatch.215     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x9f5e90): Algorithm vtkPVGradientFilter(0x9ccf30) returned failure for request: vtkInformation (0xab21e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.203s) [pvbatch.263     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x15abf30): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.203s) [pvbatch.263     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x15d4ec0): Algorithm vtkPVGradientFilter(0x15abf30) returned failure for request: vtkInformation (0x16911e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.155s) [pvbatch.360     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x19dbb80): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.155s) [pvbatch.360     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x19ee870): Algorithm vtkPVGradientFilter(0x19dbb80) returned failure for request: vtkInformation (0x1aa5fe0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.28      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1c4ffe0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.28      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1c527d0): Algorithm vtkPVGradientFilter(0x1c4ffe0) returned failure for request: vtkInformation (0x1d09ba0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.111     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x13b6650): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.111     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1388e30): Algorithm vtkPVGradientFilter(0x13b6650) returned failure for request: vtkInformation (0x146b960)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.188s) [pvbatch.72      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1f5b250): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.188s) [pvbatch.72      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1f74910): Algorithm vtkPVGradientFilter(0x1f5b250) returned failure for request: vtkInformation (0x202c050)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.165s) [pvbatch.216     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xb5e250): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.165s) [pvbatch.216     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xb77910): Algorithm vtkPVGradientFilter(0xb5e250) returned failure for request: vtkInformation (0xc2f050)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.202s) [pvbatch.264     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xd17250): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.202s) [pvbatch.264     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xd30910): Algorithm vtkPVGradientFilter(0xd17250) returned failure for request: vtkInformation (0xde8050)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.157s) [pvbatch.361     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x105e650): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.157s) [pvbatch.361     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x102fec0): Algorithm vtkPVGradientFilter(0x105e650) returned failure for request: vtkInformation (0x11132e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.29      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1766890): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.697s) [pvbatch.29      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x17690a0): Algorithm vtkPVGradientFilter(0x1766890) returned failure for request: vtkInformation (0x184bbd0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.113     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x220a6f0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.182s) [pvbatch.73      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x25768b0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.164s) [pvbatch.222     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x28c8b50): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.164s) [pvbatch.222     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x28cb360): Algorithm vtkPVGradientFilter(0x28c8b50) returned failure for request: vtkInformation (0x2982820)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.203s) [pvbatch.265     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xefe730): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.203s) [pvbatch.265     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xecfdd0): Algorithm vtkPVGradientFilter(0xefe730) returned failure for request: vtkInformation (0xfb32e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.156s) [pvbatch.363     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1a95640): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.156s) [pvbatch.363     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1a67e50): Algorithm vtkPVGradientFilter(0x1a95640) returned failure for request: vtkInformation (0x1b4a980)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.30      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1e145a0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.30      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1e16db0): Algorithm vtkPVGradientFilter(0x1e145a0) returned failure for request: vtkInformation (0x1ece2e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.114     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1943360): Algorithm vtkPVGradientFilter(0x1940b50) returned failure for request: vtkInformation (0x19fa820)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.184s) [pvbatch.74      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1901c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.184s) [pvbatch.74      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x18e85c0): Algorithm vtkPVGradientFilter(0x1901c90) returned failure for request: vtkInformation (0x19cc030)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.166s) [pvbatch.223     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1da56c0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.166s) [pvbatch.223     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1d76de0): Algorithm vtkPVGradientFilter(0x1da56c0) returned failure for request: vtkInformation (0x1e5a230)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.199s) [pvbatch.268     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1b4f170): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.200s) [pvbatch.268     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1b51980): Algorithm vtkPVGradientFilter(0x1b4f170) returned failure for request: vtkInformation (0x1c090c0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.154s) [pvbatch.368     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1632ab0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.154s) [pvbatch.368     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1643ae0): Algorithm vtkPVGradientFilter(0x1632ab0) returned failure for request: vtkInformation (0x16ff080)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.31      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x15eb150): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.31      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x15e79f0): Algorithm vtkPVGradientFilter(0x15eb150) returned failure for request: vtkInformation (0x169faf0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.115     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1f535d0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.115     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1f25e40): Algorithm vtkPVGradientFilter(0x1f535d0) returned failure for request: vtkInformation (0x20089c0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.188s) [pvbatch.75      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x25f90d0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.189s) [pvbatch.75      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x25fb8e0): Algorithm vtkPVGradientFilter(0x25f90d0) returned failure for request: vtkInformation (0x26b3b60)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.166s) [pvbatch.224     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xd83440): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.166s) [pvbatch.224     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xd1f5b0): Algorithm vtkPVGradientFilter(0xd83440) returned failure for request: vtkInformation (0xdd70d0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.199s) [pvbatch.269     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x28a9ec0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.199s) [pvbatch.269     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x28ac6d0): Algorithm vtkPVGradientFilter(0x28a9ec0) returned failure for request: vtkInformation (0x298f200)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.156s) [pvbatch.366     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xa81bb0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.156s) [pvbatch.366     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xa95300): Algorithm vtkPVGradientFilter(0xa81bb0) returned failure for request: vtkInformation (0xb4c8a0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.32      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x174e990): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.32      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x17511a0): Algorithm vtkPVGradientFilter(0x174e990) returned failure for request: vtkInformation (0x18347d0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.235s) [pvbatch.121     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1737570): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.235s) [pvbatch.121     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1708ee0): Algorithm vtkPVGradientFilter(0x1737570) returned failure for request: vtkInformation (0x17ec1c0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.187s) [pvbatch.78      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xc39b50): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.188s) [pvbatch.78      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xc3c360): Algorithm vtkPVGradientFilter(0xc39b50) returned failure for request: vtkInformation (0xcf3820)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.164s) [pvbatch.225     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2130060): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.164s) [pvbatch.225     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2132870): Algorithm vtkPVGradientFilter(0x2130060) returned failure for request: vtkInformation (0x2215340)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.202s) [pvbatch.271     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x14016f0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.202s) [pvbatch.271     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x13d2de0): Algorithm vtkPVGradientFilter(0x14016f0) returned failure for request: vtkInformation (0x14b6230)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.158s) [pvbatch.367     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1d53590): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.158s) [pvbatch.367     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1d25e30): Algorithm vtkPVGradientFilter(0x1d53590) returned failure for request: vtkInformation (0x1e089b0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.33      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xdfb120): Algorithm vtkPVGradientFilter(0xdf8910) returned failure for request: vtkInformation (0xeddbd0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.194s) [pvbatch.123     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2201040): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.194s) [pvbatch.123     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2203820): Algorithm vtkPVGradientFilter(0x2201040) returned failure for request: vtkInformation (0x22bb980)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.184s) [pvbatch.84      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x13f5170): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.184s) [pvbatch.84      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x13f79c0): Algorithm vtkPVGradientFilter(0x13f5170) returned failure for request: vtkInformation (0x14aefc0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.168s) [pvbatch.227     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2393c20): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.168s) [pvbatch.227     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x232bb20): Algorithm vtkPVGradientFilter(0x2393c20) returned failure for request: vtkInformation (0x23e7d30)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.203s) [pvbatch.273     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xdc8f20): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.203s) [pvbatch.273     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xdcb730): Algorithm vtkPVGradientFilter(0xdc8f20) returned failure for request: vtkInformation (0xeae1d0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.156s) [pvbatch.369     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1ff2590): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.156s) [pvbatch.369     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1fda910): Algorithm vtkPVGradientFilter(0x1ff2590) returned failure for request: vtkInformation (0x20bd420)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.34      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x13fb500): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.34      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x140efc0): Algorithm vtkPVGradientFilter(0x13fb500) returned failure for request: vtkInformation (0x14c6290)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.235s) [pvbatch.124     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2109810): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.235s) [pvbatch.124     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x210c020): Algorithm vtkPVGradientFilter(0x2109810) returned failure for request: vtkInformation (0x21c3800)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.186s) [pvbatch.49      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x25a3f50): Algorithm vtkPVGradientFilter(0x25a1740) returned failure for request: vtkInformation (0x265bae0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.165s) [pvbatch.234     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2565f00): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.165s) [pvbatch.234     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2568710): Algorithm vtkPVGradientFilter(0x2565f00) returned failure for request: vtkInformation (0x261fa00)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.200s) [pvbatch.278     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x16dfc90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.200s) [pvbatch.278     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x16efca0): Algorithm vtkPVGradientFilter(0x16dfc90) returned failure for request: vtkInformation (0x17aafd0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.155s) [pvbatch.370     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x28a1c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.155s) [pvbatch.370     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x28b1d50): Algorithm vtkPVGradientFilter(0x28a1c90) returned failure for request: vtkInformation (0x296d000)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.35      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1df1100): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.35      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1df3910): Algorithm vtkPVGradientFilter(0x1df1100) returned failure for request: vtkInformation (0x1ed63b0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.236s) [pvbatch.127     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x14945d0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.236s) [pvbatch.127     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1466a50): Algorithm vtkPVGradientFilter(0x14945d0) returned failure for request: vtkInformation (0x15497e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.189s) [pvbatch.56      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x25f75f0): Algorithm vtkPVGradientFilter(0x25f4de0) returned failure for request: vtkInformation (0x26aef10)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.202s) [pvbatch.280     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1917d40): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.202s) [pvbatch.280     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x191a550): Algorithm vtkPVGradientFilter(0x1917d40) returned failure for request: vtkInformation (0x19d1be0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.159s) [pvbatch.378     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x28cdf00): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.159s) [pvbatch.378     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x28d0710): Algorithm vtkPVGradientFilter(0x28cdf00) returned failure for request: vtkInformation (0x2987a00)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.36      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2786b30): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.36      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2789370): Algorithm vtkPVGradientFilter(0x2786b30) returned failure for request: vtkInformation (0x2840a00)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.129     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1e86e10): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.129     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1e75610): Algorithm vtkPVGradientFilter(0x1e86e10) returned failure for request: vtkInformation (0x1f581d0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.184s) [pvbatch.50      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xc27c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.201s) [pvbatch.281     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x25d38d0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.201s) [pvbatch.281     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x25fcab0): Algorithm vtkPVGradientFilter(0x25d38d0) returned failure for request: vtkInformation (0x26b8be0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.159s) [pvbatch.379     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1c3f230): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.159s) [pvbatch.379     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1c41a40): Algorithm vtkPVGradientFilter(0x1c3f230) returned failure for request: vtkInformation (0x1cf9cd0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.37      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1988280): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.37      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1984a60): Algorithm vtkPVGradientFilter(0x1988280) returned failure for request: vtkInformation (0x1a3cbe0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.235s) [pvbatch.132     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2327170): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.235s) [pvbatch.132     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x23299c0): Algorithm vtkPVGradientFilter(0x2327170) returned failure for request: vtkInformation (0x23e0fc0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.184s) [pvbatch.50      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xc0f970): Algorithm vtkPVGradientFilter(0xc27c90) returned failure for request: vtkInformation (0xcf2430)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.201s) [pvbatch.283     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x26f9910): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.201s) [pvbatch.283     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x26fc1c0): Algorithm vtkPVGradientFilter(0x26f9910) returned failure for request: vtkInformation (0x27deba0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.157s) [pvbatch.383     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x14b46b0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.157s) [pvbatch.383     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x14ddad0): Algorithm vtkPVGradientFilter(0x14b46b0) returned failure for request: vtkInformation (0x15999d0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.38      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1636690): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.38      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1646790): Algorithm vtkPVGradientFilter(0x1636690) returned failure for request: vtkInformation (0x1701a10)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.133     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x23b5310): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.133     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2386ec0): Algorithm vtkPVGradientFilter(0x23b5310) returned failure for request: vtkInformation (0x246a270)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.184s) [pvbatch.73      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x25a02c0): Algorithm vtkPVGradientFilter(0x25768b0) returned failure for request: vtkInformation (0x2658250)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.202s) [pvbatch.284     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x21f18e0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.202s) [pvbatch.284     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x221b4e0): Algorithm vtkPVGradientFilter(0x21f18e0) returned failure for request: vtkInformation (0x22d6b50)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.156s) [pvbatch.381     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x224b050): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.156s) [pvbatch.381     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x224d850): Algorithm vtkPVGradientFilter(0x224b050) returned failure for request: vtkInformation (0x2305700)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.39      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1991200): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.39      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1963630): Algorithm vtkPVGradientFilter(0x1991200) returned failure for request: vtkInformation (0x1a46340)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.134     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x15dbc90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.134     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x15ebdf0): Algorithm vtkPVGradientFilter(0x15dbc90) returned failure for request: vtkInformation (0x16a6fa0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.202s) [pvbatch.285     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x14b2320): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.202s) [pvbatch.285     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x14b4b30): Algorithm vtkPVGradientFilter(0x14b2320) returned failure for request: vtkInformation (0x1597660)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.156s) [pvbatch.338     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1644620): Algorithm vtkPVGradientFilter(0x1633c90) returned failure for request: vtkInformation (0x16ff3a0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.41      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x176e290): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.41      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1797670): Algorithm vtkPVGradientFilter(0x176e290) returned failure for request: vtkInformation (0x1853620)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.135     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x8dde00): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.203s) [pvbatch.242     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xdacc00): Algorithm vtkPVGradientFilter(0xd98c90) returned failure for request: vtkInformation (0xe63490)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.159s) [pvbatch.340     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xc31470): Algorithm vtkPVGradientFilter(0xc2ec60) returned failure for request: vtkInformation (0xce89c0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.42      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2814900): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.697s) [pvbatch.42      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2817110): Algorithm vtkPVGradientFilter(0x2814900) returned failure for request: vtkInformation (0x28ce400)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.136     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1850d70): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.136     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1853580): Algorithm vtkPVGradientFilter(0x1850d70) returned failure for request: vtkInformation (0x190ac10)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.201s) [pvbatch.244     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1408d60): Algorithm vtkPVGradientFilter(0x1406510) returned failure for request: vtkInformation (0x14c0220)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.159s) [pvbatch.371     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1528070): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.160s) [pvbatch.371     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x15514d0): Algorithm vtkPVGradientFilter(0x1528070) returned failure for request: vtkInformation (0x160d2f0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.43      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2418c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.43      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x241b4a0): Algorithm vtkPVGradientFilter(0x2418c90) returned failure for request: vtkInformation (0x24d3580)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.235s) [pvbatch.97      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x176eec0): Algorithm vtkPVGradientFilter(0x1745040) returned failure for request: vtkInformation (0x1826970)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.201s) [pvbatch.247     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x23d9370): Algorithm vtkPVGradientFilter(0x23f2540) returned failure for request: vtkInformation (0x24bc400)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.156s) [pvbatch.380     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1a1a8a0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.156s) [pvbatch.380     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1a444a0): Algorithm vtkPVGradientFilter(0x1a1a8a0) returned failure for request: vtkInformation (0x1affb10)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.45      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1b4cce0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.696s) [pvbatch.45      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1b4f4f0): Algorithm vtkPVGradientFilter(0x1b4cce0) returned failure for request: vtkInformation (0x1c32030)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.101     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1d64cb0): Algorithm vtkPVGradientFilter(0x1d3b8d0) returned failure for request: vtkInformation (0x1e20c60)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.200s) [pvbatch.261     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1cbef50): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.200s) [pvbatch.261     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1cc1750): Algorithm vtkPVGradientFilter(0x1cbef50) returned failure for request: vtkInformation (0x1da4200)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.155s) [pvbatch.382     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2664c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.155s) [pvbatch.382     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2675960): Algorithm vtkPVGradientFilter(0x2664c90) returned failure for request: vtkInformation (0x27305e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.46      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xa0f410): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.697s) [pvbatch.46      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xa1feb0): Algorithm vtkPVGradientFilter(0xa0f410) returned failure for request: vtkInformation (0xadae00)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.102     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x20947e0): Algorithm vtkPVGradientFilter(0x2091fe0) returned failure for request: vtkInformation (0x214ba40)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.200s) [pvbatch.262     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xb8d9e0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.200s) [pvbatch.262     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xbb77a0): Algorithm vtkPVGradientFilter(0xb8d9e0) returned failure for request: vtkInformation (0xc72f40)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.157s) [pvbatch.346     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1c77e40): Algorithm vtkPVGradientFilter(0x1c67c90) returned failure for request: vtkInformation (0x1d33020)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.0       ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x15c00600): Algorithm vtkPVGradientFilter(0x15c03710) returned failure for request: vtkInformation (0x15c25950)
+  Debug: Off
+  Modified Time: 163773
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.105     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xbb3f40): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.105     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xbb6750): Algorithm vtkPVGradientFilter(0xbb3f40) returned failure for request: vtkInformation (0xc99200)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.767s) [pvbatch.266     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x11e8c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.767s) [pvbatch.266     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x11cf5c0): Algorithm vtkPVGradientFilter(0x11e8c90) returned failure for request: vtkInformation (0x12b3030)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.160s) [pvbatch.337     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2042b60): Algorithm vtkPVGradientFilter(0x2018f10) returned failure for request: vtkInformation (0x20fa8d0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.697s) [pvbatch.1       ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x179bea0): Algorithm vtkPVGradientFilter(0x1788ce0) returned failure for request: vtkInformation (0x18530a0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.236s) [pvbatch.98      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x159ec90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.200s) [pvbatch.270     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2417b50): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.200s) [pvbatch.270     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x241a360): Algorithm vtkPVGradientFilter(0x2417b50) returned failure for request: vtkInformation (0x24d1820)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.697s) [pvbatch.2       ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x17c6400): Algorithm vtkPVGradientFilter(0x17b2410) returned failure for request: vtkInformation (0x187cc50)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.99      ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x217b8d0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.99      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x217e180): Algorithm vtkPVGradientFilter(0x217b8d0) returned failure for request: vtkInformation (0x2235df0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.203s) [pvbatch.272     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x13ccc10): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.203s) [pvbatch.272     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x13cf420): Algorithm vtkPVGradientFilter(0x13ccc10) returned failure for request: vtkInformation (0x1486fa0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.3       ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x286f350): Algorithm vtkPVGradientFilter(0x285bf70) returned failure for request: vtkInformation (0x2926b70)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.106     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2275c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.106     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2285e40): Algorithm vtkPVGradientFilter(0x2275c90) returned failure for request: vtkInformation (0x2341020)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.203s) [pvbatch.274     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xfb3b00): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.203s) [pvbatch.274     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xfc7d20): Algorithm vtkPVGradientFilter(0xfb3b00) returned failure for request: vtkInformation (0x107e8d0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.4       ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x17093d0): Algorithm vtkPVGradientFilter(0x1706bd0) returned failure for request: vtkInformation (0x17c09b0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.113     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x220cf00): Algorithm vtkPVGradientFilter(0x220a6f0) returned failure for request: vtkInformation (0x22efac0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.203s) [pvbatch.275     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1cbb6d0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.203s) [pvbatch.275     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1cbdee0): Algorithm vtkPVGradientFilter(0x1cbb6d0) returned failure for request: vtkInformation (0x1da09c0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.5       ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1c1c160): Algorithm vtkPVGradientFilter(0x1c19950) returned failure for request: vtkInformation (0x1cfeec0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.135     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x8e1bf0): Algorithm vtkPVGradientFilter(0x8dde00) returned failure for request: vtkInformation (0x9c49f0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.768s) [pvbatch.276     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xfa0150): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.768s) [pvbatch.276     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xfa2960): Algorithm vtkPVGradientFilter(0xfa0150) returned failure for request: vtkInformation (0x105a0c0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.7       ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xfa7e70): Algorithm vtkPVGradientFilter(0xf7e3f0) returned failure for request: vtkInformation (0x105fd20)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.104     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xa9f6a0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.237s) [pvbatch.104     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xac91c0): Algorithm vtkPVGradientFilter(0xa9f6a0) returned failure for request: vtkInformation (0xb84970)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.203s) [pvbatch.277     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0xd5f490): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.203s) [pvbatch.277     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xd30f50): Algorithm vtkPVGradientFilter(0xd5f490) returned failure for request: vtkInformation (0xe14320)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.8       ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x10dd4a0): Algorithm vtkPVGradientFilter(0x110a850) returned failure for request: vtkInformation (0x11c4a20)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.236s) [pvbatch.98      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x15af620): Algorithm vtkPVGradientFilter(0x159ec90) returned failure for request: vtkInformation (0x166a3a0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.203s) [pvbatch.279     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x94b500): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.203s) [pvbatch.279     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x94dd40): Algorithm vtkPVGradientFilter(0x94b500) returned failure for request: vtkInformation (0xa30950)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.697s) [pvbatch.10      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x268ae50): Algorithm vtkPVGradientFilter(0x26774b0) returned failure for request: vtkInformation (0x2742280)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.137     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2798920): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.203s) [pvbatch.282     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x2244f00): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.203s) [pvbatch.282     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x2247710): Algorithm vtkPVGradientFilter(0x2244f00) returned failure for request: vtkInformation (0x22fea00)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.697s) [pvbatch.12      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0xddb3c0): Algorithm vtkPVGradientFilter(0xdd8bc0) returned failure for request: vtkInformation (0xe92a00)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.237s) [pvbatch.137     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x27c1860): Algorithm vtkPVGradientFilter(0x2798920) returned failure for request: vtkInformation (0x287db70)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.203s) [pvbatch.286     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1342c90): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.203s) [pvbatch.286     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1353960): Algorithm vtkPVGradientFilter(0x1342c90) returned failure for request: vtkInformation (0x140e5e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.20      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x202aa80): Algorithm vtkPVGradientFilter(0x2000f30) returned failure for request: vtkInformation (0x20e61e0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.199s) [pvbatch.287     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x1afa6c0): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1457.199s) [pvbatch.287     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1b23b50): Algorithm vtkPVGradientFilter(0x1afa6c0) returned failure for request: vtkInformation (0x1bdf950)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1456.696s) [pvbatch.21      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x1d980f0): Algorithm vtkPVGradientFilter(0x1d958e0) returned failure for request: vtkInformation (0x1e7abf0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.203s) [pvbatch.245     ]  vtkGradientFilter.cxx:300    ERR| vtkPVGradientFilter (0x21ac540): No input array. If this dataset is part of a composite dataset check to make sure that all non-empty blocks have this array.
+(1456.697s) [pvbatch.40      ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x104ab10): Algorithm vtkPVGradientFilter(0x1048300) returned failure for request: vtkInformation (0x11021b0)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(1457.204s) [pvbatch.245     ]       vtkExecutive.cxx:753    ERR| vtkPVCompositeDataPipeline (0x21948b0): Algorithm vtkPVGradientFilter(0x21ac540) returned failure for request: vtkInformation (0x2277380)
+  Debug: Off
+  Modified Time: 79899
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+pv.create_Contour
+slurmstepd: error: *** STEP 2339459.0 ON i01r01c01s08 CANCELLED AT 2022-09-21T12:40:18 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 2339459 ON i01r01c01s08 CANCELLED AT 2022-09-21T12:40:18 DUE TO TIME LIMIT ***
