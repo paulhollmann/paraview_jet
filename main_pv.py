@@ -1,16 +1,18 @@
 #!/usr/bin/env pvpython
 import paraview_functions as pv
 import file_functions as ff
+import math
 
 
 ################## CONFIG
 # no trailing slash
 data_folder = "U:\\nguyen\\DNSdata_jet\\DNS2_vid"
 temp_folder = "C:\\jet_temp" # !! all files will be deleted !!
-processed_folder = "Z:\\Nguyen\\jet_pvpython\\processed"
-processed_pic_folder = "Z:\\Nguyen\\jet_pvpython\\processed2"
-number_frames = 5  # 938
+processed_folder = "Z:\\Nguyen\\jet_pvpython\\processed2"
+processed_pic_folder = "Z:\\Nguyen\\jet_pvpython\\processed5"
+number_frames = 938  # 938
 temp_save = False # to save mem
+factor=2.0  # resolution of the resampled jet
 ################## CONFIG END
 
 # the data crunching ############################################################################################
@@ -42,8 +44,8 @@ for i in range(1, number_frames + 1):
     # project on a fast uniform grid
     if True:
         clip = pv.load_CGNS_5_10(f"{temp_folder}/clip.cgns", ['velocity', 'velocity_mag'], ['Base_Volume_Elements'])
-        grid = pv.create_FastUniformGrid()
-        transform = pv.create_Transformation(grid)
+        grid = pv.create_FastUniformGrid(factor)
+        transform = pv.create_Transformation(grid,factor)
         resample = pv.create_Resample(clip, transform)
         if temp_save:
             pv.save_Source(resample, f"{temp_folder}/resample.cgns")
@@ -107,9 +109,16 @@ for i in range(1, number_frames + 1):
         display = pv.init_Display(source, view)
         pv.color_Display(display)
         pv.display_Bar(display, view, True)
-
-        CameraPosition = [100, 0, 37.5]
-        CameraFocalPoint = [-7.116276452281695, -0.6798347127267999, 37.5]
+        angle = 0
+        if number_frames > 1:
+            angle = (((i-1.0)/(number_frames-1)) - 0.25)* 3.141592654 * 2
+        
+        x = abs(math.cos(angle) * 100)
+        z = 137.5 + (math.sin(angle) * 100)
+        
+        print(f"x={x}  z={z}")
+        CameraPosition = [x, 0, z]
+        CameraFocalPoint = [0, 0, 137.5]
         CameraViewUp = [0.0, -1.0, 0.0]
         CameraParallelScale = 41.06120959102141
         layout = pv.init_Layout(view, 3840, 1421, CameraPosition, CameraFocalPoint, CameraViewUp, CameraParallelScale)

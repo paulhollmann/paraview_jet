@@ -56,17 +56,17 @@ def create_Contour(source):
     UpdatePipeline(proxy=contour)
     return contour
 
-def create_FastUniformGrid():
+def create_FastUniformGrid(factor):
     print('pv.create_FastUniformGrid')
     fastUniformGrid = FastUniformGrid(registrationName='fastUniformGrid')
-    fastUniformGrid.WholeExtent = [-250, 0, -250, 250, 0, 750]
+    fastUniformGrid.WholeExtent = [-250*factor, 0, -250*factor, 250*factor, 0, 750*factor]
     return fastUniformGrid
 
-def create_Transformation(source):
+def create_Transformation(source,factor):
     print('pv.create_Transformation')
     transform = Transform(registrationName='transform', Input=source)
     transform.Transform = 'Transform'
-    transform.Transform.Scale = [0.1, 0.1, 0.1]
+    transform.Transform.Scale = [0.1/factor, 0.1/factor, 0.1/factor]
     UpdatePipeline(proxy=transform)
     return transform
 
@@ -112,6 +112,8 @@ def init_Display(visualcgns, renderView):
     display.OSPRayScaleFunction.Points = [0.0025922988186968653, 0.0, 0.5, 0.0, 1.5263435463360224, 1.0, 0.5, 0.0]
     display.ScaleTransferFunction.Points = [0.0019556693732738495, 0.0, 0.5, 0.0, 1.4659227132797241, 1.0, 0.5, 0.0]
     display.OpacityTransferFunction.Points = [0.0019556693732738495, 0.0, 0.5, 0.0, 1.4659227132797241, 1.0, 0.5, 0.0]
+
+    display.Position = [0.0, 0.0, 100.0]
 
     display.Interpolation = 'Gouraud'
     display.Diffuse = 1.0
