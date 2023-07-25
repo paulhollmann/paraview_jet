@@ -12,7 +12,7 @@ processed_folder = "Z:\\Nguyen\\jet_pvpython\\processed2"
 processed_pic_folder = "Z:\\Nguyen\\jet_pvpython\\processed5"
 number_frames = 938  # 938
 temp_save = False # to save mem
-factor=2.0  # resolution of the resampled jet
+factor=1.5  # resolution of the resampled jet
 ################## CONFIG END
 
 # the data crunching ############################################################################################
@@ -43,7 +43,8 @@ for i in range(1, number_frames + 1):
 
     # project on a fast uniform grid
     if True:
-        clip = pv.load_CGNS_5_10(f"{temp_folder}/clip.cgns", ['velocity', 'velocity_mag'], ['Base_Volume_Elements'])
+        if temp_save:
+            clip = pv.load_CGNS_5_10(f"{temp_folder}/clip.cgns", ['velocity', 'velocity_mag'], ['Base_Volume_Elements'])
         grid = pv.create_FastUniformGrid(factor)
         transform = pv.create_Transformation(grid,factor)
         resample = pv.create_Resample(clip, transform)
@@ -56,7 +57,8 @@ for i in range(1, number_frames + 1):
 
     # compute q-criterion and select iso surfaces
     if True:
-        resample = pv.load_CGNS_5_10(f"{temp_folder}/resample.cgns", ['velocity', 'velocity_mag'], ['Base'])
+        if temp_save:
+            resample = pv.load_CGNS_5_10(f"{temp_folder}/resample.cgns", ['velocity', 'velocity_mag'], ['Base'])
         qcrit = pv.create_QCriterion(resample)
         contour = pv.create_Contour(qcrit)
         if temp_save:
@@ -67,7 +69,8 @@ for i in range(1, number_frames + 1):
 
     # export the whole
     if True:
-        contour = pv.load_CGNS_5_10(f"{temp_folder}/contour.cgns", ['velocity_mag'], ['Base_Surface_Elements'])
+        if temp_save:
+            contour = pv.load_CGNS_5_10(f"{temp_folder}/contour.cgns", ['velocity_mag'], ['Base_Surface_Elements'])
         pv.save_SourceCGNS(contour, f"{temp_folder}/visual.cgns")
         if temp_save:
             pv.delete_Source(contour)

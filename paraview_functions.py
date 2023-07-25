@@ -59,7 +59,7 @@ def create_Contour(source):
 def create_FastUniformGrid(factor):
     print('pv.create_FastUniformGrid')
     fastUniformGrid = FastUniformGrid(registrationName='fastUniformGrid')
-    fastUniformGrid.WholeExtent = [-250*factor, 0, -250*factor, 250*factor, 0, 750*factor]
+    fastUniformGrid.WholeExtent = [int(-250*factor), 0, int(-250*factor), int(250*factor), 0, int(750*factor)]
     return fastUniformGrid
 
 def create_Transformation(source,factor):
